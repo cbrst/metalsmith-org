@@ -1,0 +1,36 @@
+{
+  "name": "metalsmith-org",
+  "version": "0.1.0",
+  "description": "Convert Org-mode files to HTML",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crshd/metalsmith-org.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "org",
+    "org-mode"
+  ],
+  "author": "Christian 'crshd' Brassat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crshd/metalsmith-org/issues"
+  },
+  "homepage": "https://github.com/crshd/metalsmith-org#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "org": "^0.2.0"
+  },
+  "jshintConfig": {
+    "node": true
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^2.1.0",
+    "mocha": "^2.4.5"
+  }
+}
