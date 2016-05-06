@@ -1,0 +1,42 @@
+* metalsmith-org
+
+A [[http://metalsmith.io][Metalsmith]] plugin to convert org-mode files.
+
+** Installation
+
+#+NAME: install
+#+BEGIN_SRC
+npm install metalsmith-markdown
+#+END_SRC
+
+** CLI Usage
+
+Install via npm and then add the `metalsmith-markdown` key to your metalsmith.json plugins with any [[https://github.com/mooz/org-js][org-js]] options you want, like so:
+
+#+NAME: cli_usage
+#+BEGIN_SRC json
+{
+  "plugins": {
+    "metalsmith-org": {
+      "headerOffset": 1
+    }
+  }
+}
+#+END_SRC
+
+** Javascript Usage
+
+Pass ~options~ to the markdown plugin and pass it to Metalsmith with the ~use~ method:
+
+#+NAME: js_usage
+#+BEGIN_SRC js
+var org = require('metalsmith-org');
+
+metalsmith.use(org({
+  headerOffset: 1
+})
+#+END_SRC
+
+** License
+
+MIT
