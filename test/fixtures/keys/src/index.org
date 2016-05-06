@@ -1,0 +1,7 @@
+---
+custom: _a_
+---
+
+* An org-mode Post
+
+With some "amazing", /riveting/, *cooonnntent*.
